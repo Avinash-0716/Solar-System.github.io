@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Solar System</title>
+  <style>
+  body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    font-family: Arial, sans-serif;
+  }
+
+  canvas {
+    display: block;
+  }
+
+  #controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 10;
+    color: #fff;
+    font-size: 13px;
+    max-height: 90vh;
+    overflow-y: auto;
+    width: 200px;
+  }
+
+  #controls input[type="range"] {
+    width: 100%;
+    margin: 5px 0 10px;
+  }
+
+  #controls button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    #controls {
+      width: 160px;
+      font-size: 12px;
+      padding: 8px;
+    }
+    #controls button {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- ✅ Speed controls, buttons -->
+  <div id="controls"></div>
+
+  <!-- ✅ Three.js CDN -->
+  <script src="https://unpkg.com/three@0.148.0/build/three.min.js"></script>
+
+  <!-- ✅ JS logic -->
+  <script src="script.js"></script>
+
+</body>
+</html>
