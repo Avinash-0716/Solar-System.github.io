@@ -42,7 +42,7 @@ const textures = {
   sun: loader.load("sun.jpg"),
   mercury: loader.load("mercury.jpg"),
   venus: loader.load("venus.jpg"),
-  earth: loader.load("earth.jpg"),
+  earth: loader.load("earth.jgp"),
   mars: loader.load("mars.jpg"),
   jupiter: loader.load("jupiter.jpg"),
   saturn: loader.load("saturn.jpg"),
