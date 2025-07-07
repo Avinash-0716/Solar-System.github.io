@@ -39,15 +39,15 @@ scene.add(ambientLight);
 // === TEXTURE LOADING ===
 const loader = new THREE.TextureLoader();
 const textures = {
-  sun: loader.load("textures/sun.jpg"),
-  mercury: loader.load("textures/mercury.jpg"),
-  venus: loader.load("textures/venus.jpg"),
-  earth: loader.load("textures/earth.jpg"),
-  mars: loader.load("textures/mars.jpg"),
-  jupiter: loader.load("textures/jupiter.jpg"),
-  saturn: loader.load("textures/saturn.jpg"),
-  uranus: loader.load("textures/uranus.jpg"),
-  neptune: loader.load("textures/neptune.jpg")
+  sun: loader.load("sun.jpg"),
+  mercury: loader.load("mercury.jpg"),
+  venus: loader.load("venus.jpg"),
+  earth: loader.load("earth.jpg"),
+  mars: loader.load("mars.jpg"),
+  jupiter: loader.load("jupiter.jpg"),
+  saturn: loader.load("saturn.jpg"),
+  uranus: loader.load("uranus.jpg"),
+  neptune: loader.load("neptune.jpg")
 };
 
 // === SUN ===
